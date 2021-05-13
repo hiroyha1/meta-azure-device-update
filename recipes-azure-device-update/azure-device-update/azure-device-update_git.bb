@@ -11,7 +11,7 @@
 
 LICENSE = "CLOSED"
 
-ADUC_GIT_BRANCH ?= "0.7.0-rc1"
+ADUC_GIT_BRANCH ?= "main"
 ADUC_SRC_URI ?= "git://github.com/Azure/iot-hub-device-update;branch=${ADUC_GIT_BRANCH}"
 SRC_URI = "${ADUC_SRC_URI}"
 
